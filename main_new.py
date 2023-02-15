@@ -65,7 +65,7 @@ class App(QWidget):
 
     def set_label(self):
         lb2 = QLabel("Kyle's Memo", self)
-        lb2.setGeometry(QtCore.QRect(30, 0, 100, 30))
+        lb2.setGeometry(QtCore.QRect(30, 0, 120, 30))
 
     def set_main_window(self):
         if self.on_top:
